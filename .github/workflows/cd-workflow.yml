@@ -65,4 +65,6 @@ jobs:
         registry: docker.pkg.github.com
         repository: ShellOliver/github-actions-for-packages/tic-tac-toe
         tag_with_sha: true
+        build-args: |
+            --tag=user/app:latest
         tags: user/app:latest
